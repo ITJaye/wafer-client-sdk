@@ -10,9 +10,9 @@ var exports = module.exports = {
     LoginError: login.LoginError,
 
     clearSession: Session.clear,
+    getSession: Session.get,//增加getSession
 
     request: request.request,
-    buildSessionHeader: request.buildSessionHeader,
     RequestError: request.RequestError,
 
     Tunnel: Tunnel,
